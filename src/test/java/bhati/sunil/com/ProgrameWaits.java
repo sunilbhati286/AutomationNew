@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class ProgrameWaits {
+public class ProgrameWaits  extends ProgrameWaitHelper{
     @Description("This is for the Waits for specific condition")
     @Test
     void optionsBrowser() throws InterruptedException {
