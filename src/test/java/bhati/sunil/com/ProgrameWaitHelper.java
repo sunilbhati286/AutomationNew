@@ -13,7 +13,7 @@ public class ProgrameWaitHelper {
         wait.until(ExpectedConditions.visibilityOfElementLocated(Locater));
     }
 
-    public void checkVisibility1(WebDriver driver, By Locater){
+    public static void checkVisibility1(WebDriver driver, By Locater){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(Locater));
     }
