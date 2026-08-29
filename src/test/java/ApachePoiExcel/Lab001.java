@@ -18,6 +18,7 @@ public class Lab001 {
                System.out.print(cell + "\t");
            }
            System.out.println();
+           System.out.println("hi");
        }
 
 
